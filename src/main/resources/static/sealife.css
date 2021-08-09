@@ -1,3 +1,98 @@
-#fishtable {
-    background-color: aquamarine;
+body {
+    background-image: url("https://wallpaperaccess.com/full/480799.jpg");
 }
+
+h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+color: #FFFFFF;
+}
+
+p {
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 25px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #000000;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        text-align: center; 
+        background-color: rgb(137, 211, 253); 
+}
+
+#fishtable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: fit-content;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #fishtable td, #fishtable th {
+border: 1px solid #AAAAAA;
+padding: 3px 2px;
+}
+#fishtable tbody td {
+font-size: 20px;
+}
+#fishtable tr:nth-child(even) {
+background: #D0E4F5;
+}
+#fishtable thead {
+background: #1C6EA4;
+background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+border-bottom: 2px solid #444444;
+}
+#fishtable thead th {
+font-size: 25px;
+font-weight: bold;
+color: #FFFFFF;
+border-left: 2px solid #D0E4F5;
+}
+#fishtable thead th:first-child {
+border-left: none;
+}
+
+#fishtableTable tfoot {
+font-size: 20px;
+font-weight: bold;
+color: #FFFFFF;
+background: #D0E4F5;
+background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+border-top: 2px solid #444444;
+}
+#fishtableTable tfoot td {
+font-size: 20px;
+}
+#fishtableTable tfoot .links {
+text-align: right;
+}
+#fishtableTable tfoot .links a{
+display: inline-block;
+background: #1C6EA4;
+color: #FFFFFF;
+padding: 2px 8px;
+border-radius: 5px;
+}
+
+#addfishform {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #050104;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    }
