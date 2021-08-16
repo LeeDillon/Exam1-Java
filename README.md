@@ -19,3 +19,4 @@ There were plenty of times when i spent hours stuck on a problem and tried findi
 Possible improvements for future revisions of the project. 
 
 I think that we would have been better prepared for this project if we had done more small exercises on the individual concepts covered in the past few weeks that actually challenged us to think about how the code was working. For example the fetch API exercises on community was basically an exercise in copying and pasting and didnt take much brain power to complete, if we had been set a challenge that was more difficult I would have had a better understanding of one of the key components required for this challenge.
+change
