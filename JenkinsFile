@@ -1,0 +1,10 @@
+pipeline{
+        agent any
+        stages{
+            stage('Run JAR'){
+                steps{
+                    sh "java -jar target/Exam1-0.0.1-SNAPSHOT.jar &"
+                }
+            }
+        }
+}
