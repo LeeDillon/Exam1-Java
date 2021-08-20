@@ -21,7 +21,7 @@ pipeline {
 			steps{
 			sh 'mkdir -p /home/jenkins/Jars'
 			sh 'mkdir -p /home/jenkins/appservice'
-			sh 'mv ./target/*.jar /home/jenkins/Wars/Exam1.jar'
+			sh 'mv ./target/*.jar /home/jenkins/Jars/Exam1.jar'
 			}
                 }
 		stage('Stopping Service'){
