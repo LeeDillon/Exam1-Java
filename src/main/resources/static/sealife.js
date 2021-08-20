@@ -1,3 +1,5 @@
+const taskUrl = "http://"+window.location.hostname+":8080";
+
 let fishtable = document.querySelector('#fishtable');
 
 function getData(url, callback) {
@@ -13,7 +15,7 @@ function getData(url, callback) {
 }
 
 
-getData('http://localhost:9001/getAll', createTable);
+getData(`${taskURL}/getAll`, createTable);
 
 function createTable(tableData) {
   var table = document.createElement('table');
@@ -81,7 +83,7 @@ function postData(event) {
   let fcolour = document.querySelector('#fishcolour').value;
   let flength = document.querySelector('#fishlength').value;
   let fweight = document.querySelector('#fishweight').value;
-  fetch("http://localhost:9001/create", {
+  fetch(`${taskURL}/create`, {
     method: 'post',
     headers: {
       "Content-type": "application/json"
@@ -112,7 +114,7 @@ function updateData(event) {
   let fcolour = document.querySelector('#fishcolour').value;
   let flength = document.querySelector('#fishlength').value;
   let fweight = document.querySelector('#fishweight').value;
-  fetch(`http://localhost:9001/update/${id}`, {
+  fetch(`${taskURL}/update/${id}`, {
     method: 'put',
     headers: {
       "Content-type": "application/json"
@@ -138,7 +140,7 @@ delBtn.addEventListener("click", function (event) {
 function deleteData(event) {
   event.preventDefault();
   let id = document.querySelector('#fishid').value
-  fetch(`http://localhost:9001/delete/${id}`, {
+  fetch(`${taskURL}/delete/${id}`, {
     method: 'delete'
   })
   window.location.reload();
